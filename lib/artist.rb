@@ -1,5 +1,17 @@
 class Artist 
   
+  @@all = []
+  
+  def initialize(name)
+    @name = name
+    @@alll << self
+  end  
+  
+  
+  
+  def self.all
+    @@all
+  end  
   
   
 end
