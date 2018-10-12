@@ -22,10 +22,6 @@ class Artist
   def genres
     
   end
-
-
-  
-  
   
   def self.all
     @@all
